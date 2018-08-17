@@ -10,7 +10,7 @@
   "author": "asaf@indexia.co",
   "license": "MIT",
   "dependencies": {
-    "broccoli-pegjs": "^0.0.1"
+    "broccoli-pegjs": "gaurav0/broccoli-pegjs#b0ccaf1f8f52a0488349a390cafeaefa136aba9f"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/indexiatech/ember-cli-pegjs/issues"
   },
-  "homepage": "https://github.com/indexiatech/ember-cli-pegjs"
+  "homepage": "https://github.com/indexiatech/ember-cli-pegjs",
+  "ember-addon": {
+    "before": "ember-cli-babel"
+  }
 }
