@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@peer_iq/broccoli-pegjs@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@peer_iq/broccoli-pegjs/-/broccoli-pegjs-1.0.0.tgz#18902a860a64244df77f0b52f10a8b1682314895"
+  dependencies:
+    broccoli-persistent-filter "^1.4.3"
+    js-md5 "^0.7.3"
+    pegjs "^0.10.0"
+
 async-disk-cache@^1.2.1:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/async-disk-cache/-/async-disk-cache-1.3.3.tgz#6040486660b370e4051cd9fa9fee275e1fae3728"
@@ -48,14 +56,6 @@ broccoli-kitchen-sink-helpers@^0.3.1:
   dependencies:
     glob "^5.0.10"
     mkdirp "^0.5.1"
-
-broccoli-pegjs@gaurav0/broccoli-pegjs#b0ccaf1f8f52a0488349a390cafeaefa136aba9f:
-  version "1.0.0"
-  resolved "https://codeload.github.com/gaurav0/broccoli-pegjs/tar.gz/b0ccaf1f8f52a0488349a390cafeaefa136aba9f"
-  dependencies:
-    broccoli-persistent-filter "^1.4.3"
-    js-md5 "^0.7.3"
-    pegjs "^0.10.0"
 
 broccoli-persistent-filter@^1.4.3:
   version "1.4.3"

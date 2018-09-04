@@ -1,6 +1,6 @@
 'use strict';
 
-var peg = require('broccoli-pegjs');
+var peg = require('@peer_iq/broccoli-pegjs');
 
 module.exports = {
   name: 'ember-cli-pegjs',

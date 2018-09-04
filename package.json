@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-pegjs",
+  "name": "@peer_iq/ember-cli-pegjs",
   "version": "1.0.0",
   "description": "Use this module to preprocess any .pegjs grammar to generate parsers.",
   "main": "index.js",
@@ -10,16 +10,13 @@
   "author": "asaf@indexia.co",
   "license": "MIT",
   "dependencies": {
-    "broccoli-pegjs": "gaurav0/broccoli-pegjs#b0ccaf1f8f52a0488349a390cafeaefa136aba9f"
+    "@peer_iq/broccoli-pegjs": "^1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/indexiatech/ember-cli-pegjs.git"
+    "url": "git://github.com/gaurav0/ember-cli-pegjs.git"
   },
-  "bugs": {
-    "url": "https://github.com/indexiatech/ember-cli-pegjs/issues"
-  },
-  "homepage": "https://github.com/indexiatech/ember-cli-pegjs",
+  "homepage": "https://github.com/gaurav0/ember-cli-pegjs",
   "ember-addon": {
     "before": "ember-cli-babel"
   }
