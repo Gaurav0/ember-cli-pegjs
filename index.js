@@ -3,7 +3,7 @@
 var peg = require('@peer_iq/broccoli-pegjs');
 
 module.exports = {
-  name: 'ember-cli-pegjs',
+  name: '@peer_iq/ember-cli-pegjs',
 
   included: function(app) {
     this._super.included.apply(this, arguments);
@@ -24,7 +24,7 @@ module.exports = {
 
   setupPreprocessorRegistry: function(type, registry) {
     registry.add('js', {
-      name: 'ember-cli-pegjs',
+      name: '@peer_iq/ember-cli-pegjs',
       ext: 'pegjs',
       toTree: tree => {
         if (!this.pegOptions) {
