@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@peer_iq/broccoli-pegjs@^1.0.0":
+"@peeriq/broccoli-pegjs@^1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@peer_iq/broccoli-pegjs/-/broccoli-pegjs-1.0.0.tgz#18902a860a64244df77f0b52f10a8b1682314895"
+  resolved "https://registry.yarnpkg.com/@peeriq/broccoli-pegjs/-/broccoli-pegjs-1.0.0.tgz#61c67261f36733f6bd593da215a4df9dddd8e048"
   dependencies:
     broccoli-persistent-filter "^1.4.3"
     js-md5 "^0.7.3"

@@ -5,7 +5,7 @@ An [ember-cli](https://github.com/stefanpenner/ember-cli) addon for generating [
 ## Installation
 
 ```bash
-npm install --save-dev ember-cli-pegjs
+npm install --save-dev @peeriq/ember-cli-pegjs
 ```
 
 ## Usage
